@@ -21,19 +21,19 @@ A personal AI-powered Voice Assistant that listens to your voice commands, respo
 ## 🛠️ Technologies Used
 
 | Category       | Tools/Libraries                  |
-| -------------- | -------------------------------|
-| Programming    | Python 3.x                     |
-| Voice Input    | `speech_recognition`           |
-| Voice Output   | `pyttsx3`, `gTTS`              |
-| Audio Handling | `pyaudio`, `playsound`         |
-| Web Control    | `webbrowser`, `requests`       |
-| Time & Date    | `datetime`, `time`             |
-| Database       | `sqlite3`, `json`              |
-| Others        | `os`, `subprocess`, `platform` |
+| -------------- | ------------------------------- |
+| Programming    | Python 3.x                       |
+| Voice Input    | `speech_recognition`             |
+| Voice Output   | `pyttsx3`, `gTTS`                |
+| Audio Handling | `pyaudio`, `playsound`           |
+| Web Control    | `webbrowser`, `requests`         |
+| Time & Date    | `datetime`, `time`               |
+| Database       | `sqlite3`, `json`                |
+| Others         | `os`, `subprocess`, `platform`   |
 
 ---
 
-## 📦 Setup & Installation
+## 📦 Setup & Installation 
 
 ### Prerequisites
 
@@ -45,9 +45,14 @@ If `requirements.txt` is available:
 
 ```bash
 pip install -r requirements.txt
+```
+
 
 ---
-📁 Folder Structure:
+
+## 📁 Folder Structure
+
+```
 voice-assistant/
 ├── main.py                 # Main application logic
 ├── commands.py             # (Optional) Command handling module
@@ -56,33 +61,57 @@ voice-assistant/
 ├── assets/                 # Icons, audio files, etc.
 ├── requirements.txt        # Dependency list
 ├── README.md               # This file
+```
 
 
 ---
 
-🧪 How to Run 
+## 🧪 How to Run
 
-(1)[git clone](https://github.com/shivacharandhoni/voice-assistant.git/)
+1. Clone the repository:
 
-(2)Navigate into the project directory:
+```bash
+git clone https://github.com/shivacharandhoni/voice-assistant.git
+```
+
+2. Navigate into the project directory:
+
+```bash
 cd voice-assistant
+```
 
-(3)Install dependencies:
+3. Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-(4)Run the assistant:
+4. Run the assistant:
+
+```bash
 python main.py
+```
+
+
+---
 
 ## 🔗 Useful Links
 
-- [Official Python Website](https://www.python.org/)  
-- [SpeechRecognition Library](https://pypi.org/project/SpeechRecognition/)  
-- [pyttsx3 Documentation](https://pypi.org/project/pyttsx3/)  
+- [Official Python Website](https://www.python.org/)
+- [SpeechRecognition Library](https://pypi.org/project/SpeechRecognition/)
+- [pyttsx3 Documentation](https://pypi.org/project/pyttsx3/)
 - [Voice Assistant GitHub Repo](https://github.com/shivacharandhoni/voice-assistant)
+
 ---
+
 ## 👨‍💻 Author
-**Shivacharan Dhoni**  
-📧 [shivacharandhoni@gmail.com](mailto:shivacharandhoni@gmail.com)  
+
+**Shivacharan Dhoni**
+
+📧 [shivacharandhoni@gmail.com](mailto:shivacharandhoni@gmail.com)
+
 🌐 [GitHub Profile](https://github.com/shivacharandhoni)
+
+---
 
 
